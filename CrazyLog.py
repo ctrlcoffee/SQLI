@@ -2,6 +2,18 @@ import requests
 import time
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+
+ascii_art = """
+    __  ____    ____  _____  __ __      _       ___    ____     
+   /  ]|    \  /    T|     T|  T  T    | T     /   \  /    T    
+  /  / |  D  )Y  o  |l__/  ||  |  |    | |    Y     YY   __j    
+ /  /  |    / |     ||   __j|  ~  |    | l___ |  O  ||  T  |    
+/   \_ |    \ |  _  ||  /  |l___, |    |     T|     ||  l_ |    
+\     ||  .  Y|  |  ||     ||     !    |     |l     !|     |    
+ \____jl__j\_jl__j__jl_____jl____/     l_____j \___/ l___,_j    
+                                                                
+"""
+
 def get_input():
     """Prompt the user for input and validate the choice."""
     while True:
